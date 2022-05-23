@@ -39,6 +39,9 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
+## Acknowledgements
+- Thanks to React team for providing this great library.
+
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
