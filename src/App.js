@@ -1,13 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import './assets/main.css';
+import Calculator from './components/Calculator';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Math Magician</h1>
-      </header>
+      <section className="app-container">
+        <Calculator />
+      </section>
     </div>
   );
 }
