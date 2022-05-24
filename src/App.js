@@ -1,15 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './assets/main.css';
+import Calculator from './components/Calculator';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Math Magician</h1>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <section className="app-container">
+          <Calculator />
+        </section>
+      </div>
+    );
+  }
 }
 
 export default App;
