@@ -8,6 +8,10 @@
 
 - React
 
+## Live Demo
+
+[See Live Demo](https://math-magician-erik.netlify.app/)
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
