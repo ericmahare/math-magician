@@ -1,34 +1,30 @@
-import React, { Component } from 'react';
+import { useState } from 'react';
 import calculate from '../logic/Calculate';
 // import operate from '../logic/Operate';
 
 import CalcUi from './CalcUi';
 
-class Calculator extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      total: 0,
-      next: null,
-      operation: null,
-    };
-  }
+const Calculator = () => {
+  const [value, setValue] = useState({
+    total: 0,
+    next: null,
+    operation: null,
+  });
+  const { total, next, operation } = value;
 
-  handleKeyPress = (buttonName) => {
-    this.setState((state) => calculate(state, buttonName));
-  }
+  // handle click function
+  const handleKeyPress = (buttonName) => {
+    setValue({ ...value, ...calculate(value, buttonName) });
+  };
 
-  render() {
-    const { total, next, operation } = this.state;
-    return (
-      <CalcUi
-        operate={this.handleKeyPress}
-        total={total}
-        next={next}
-        operation={operation}
-      />
-    );
-  }
-}
+  return (
+    <CalcUi
+      operate={handleKeyPress}
+      total={total}
+      next={next}
+      operation={operation}
+    />
+  );
+};
 
 export default Calculator;
