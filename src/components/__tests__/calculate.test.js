@@ -1,4 +1,4 @@
-import calculate from '../../logic/calculate.js';
+import calculate from '../../logic/calculate';
 
 describe('AC pressed', () => {
   test('Clear everything', () => {
