@@ -10,7 +10,9 @@
 
 ## Live Demo
 
-[See Live Demo](https://math-magician-erik.netlify.app/)
+[Netlify Live Demo](https://math-magician-erik.netlify.app/)
+
+[heroku live demo](https://math-magician-erik.herokuapp.com/)
 
 ## Getting Started
 
@@ -22,7 +24,7 @@ To get a local copy up and running follow these simple example steps.
 - write `git clone https://github.com/ericmahare/math-magician.git`.
 - go to the repository folder in your command prompt `cd math-magician`
 - write `npm install` to install all the packages.
-- write `npm start` to start the live server
+- write `npm start` to start the live server.
 
 ## Authors
 
@@ -39,12 +41,12 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
+## Show your support 
 
 Give a ⭐️ if you like this project!
 
 ## Acknowledgements
-- Thanks to React team for providing this great library.
+- Thanks to React team for providing this great library and everyone who contributed through out the development process.
 
 ## 📝 License
 
