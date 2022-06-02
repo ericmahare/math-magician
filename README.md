@@ -24,7 +24,7 @@ To get a local copy up and running follow these simple example steps.
 - write `git clone https://github.com/ericmahare/math-magician.git`.
 - go to the repository folder in your command prompt `cd math-magician`
 - write `npm install` to install all the packages.
-- write `npm start` to start the live server
+- write `npm start` to start the live server.
 
 ## Authors
 
