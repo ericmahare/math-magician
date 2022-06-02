@@ -41,12 +41,12 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
+## Show your support 
 
 Give a ⭐️ if you like this project!
 
 ## Acknowledgements
-- Thanks to React team for providing this great library.
+- Thanks to React team for providing this great library and everyone who contributed through out the development process.
 
 ## 📝 License
 
