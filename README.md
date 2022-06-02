@@ -10,7 +10,9 @@
 
 ## Live Demo
 
-[See Live Demo](https://math-magician-erik.netlify.app/)
+[Netlify Live Demo](https://math-magician-erik.netlify.app/)
+
+[heroku live demo](https://math-magician-erik.herokuapp.com/)
 
 ## Getting Started
 
